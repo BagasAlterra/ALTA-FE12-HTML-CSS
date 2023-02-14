@@ -1,0 +1,10 @@
+.navbar a:active {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar a:current {
+    background-color: green;
+    border-radius: 5px;
+}
