@@ -1,3 +1,28 @@
 .current-link{
     color: orange
 }
+
+.content-1 {
+    background-color: blue;
+    height: 50px;
+}
+
+.content-2 {
+    background-color: green;
+    height: 50px;
+}
+
+.content-3 {
+    background-color: purple;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1024px ) {
+    h1{
+        color: white;
+    }
+    .content-3{
+        height: 100px;
+        background-color: red;
+    }
+}
