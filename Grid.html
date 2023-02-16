@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid System</title>
+    <style>
+        .grid-container-column {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container-row {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 80px 200px 200px;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container-space-evenly {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container-space-around {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-container-space-between {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+
+        .grid-container-center {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            background-color: yellow;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .grid-content {
+            background-color: brown;
+            font-size: 25px;
+            text-align: center;
+            padding: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container-column">
+        <div class="grid-content">1</div>
+        <div class="grid-content">2</div>
+        <div class="grid-content">3</div>
+        <div class="grid-content">4</div>
+        <div class="grid-content">5</div>
+        <div class="grid-content">6</div>
+        <div class="grid-content">7</div>
+        <div class="grid-content">8</div>
+    </div>
+    <br /><br />
+    <div class="grid-container-row">
+        <div class="grid-content">1</div>
+        <div class="grid-content">2</div>
+        <div class="grid-content">3</div>
+        <div class="grid-content">4</div>
+        <div class="grid-content">5</div>
+        <div class="grid-content">6</div>
+        <div class="grid-content">7</div>
+        <div class="grid-content">8</div>
+        <div class="grid-content">9</div>
+    </div>
+    <br /><br />
+    <div class="grid-container-space-evenly">
+        <div class="grid-content">1</div>
+        <div class="grid-content">2</div>
+        <div class="grid-content">3</div>
+        <div class="grid-content">4</div>
+        <div class="grid-content">5</div>
+        <div class="grid-content">6</div>
+        <div class="grid-content">7</div>
+        <div class="grid-content">8</div>
+        <div class="grid-content">9</div>
+    </div>
+    <br /><br />
+    <div class="grid-container-space-around">
+        <div class="grid-content">1</div>
+        <div class="grid-content">2</div>
+        <div class="grid-content">3</div>
+        <div class="grid-content">4</div>
+        <div class="grid-content">5</div>
+        <div class="grid-content">6</div>
+        <div class="grid-content">7</div>
+        <div class="grid-content">8</div>
+        <div class="grid-content">9</div>
+    </div>
+    <br /><br />
+    <div class="grid-container-center">
+        <div class="grid-content">1</div>
+        <div class="grid-content">2</div>
+        <div class="grid-content">3</div>
+        <div class="grid-content">4</div>
+        <div class="grid-content">5</div>
+        <div class="grid-content">6</div>
+        <div class="grid-content">7</div>
+        <div class="grid-content">8</div>
+        <div class="grid-content">9</div>
+    </div>
+</body>
+
+</html>

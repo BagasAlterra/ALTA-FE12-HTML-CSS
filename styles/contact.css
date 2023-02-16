@@ -1,3 +1,27 @@
 .current-link{
-    color: orange
+    background-color: orange
+}
+
+@media only screen and (max-width:820px){
+    .content{
+        background-color: blue;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .content{
+        background-color: orange;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .content{
+        background-color: green;
+        height: 50px;
+        width: 100px;
+    }
 }
