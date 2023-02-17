@@ -5,5 +5,73 @@
   </head>
   <body>
     <div>Ini halaman home</div>
+    <br /><br />
+
+    <!-- Manipulasi DOM dengan getElementById-->
+
+    <!-- <p id="intro">Menemukan element dengan Id</p>
+    <p>Diatas merupakan contoh dari manipulasi DOM</p>
+    <script>
+      const element = document.getElementById("intro");
+      document.getElementById("intro").innerHTML =
+        "Teks dari paragraf intro berisi : " + element.innerHTML;
+    </script> -->
+
+    <!-- Manipulasi DOM dengan getElementByClassName-->
+
+    <!-- <p class="intro">Hello world</p>
+    <p class="intro">Lorem ipsum dolor sit amet</p>
+
+    <p id="demo"></p>
+    <script>
+      const element = document.getElementsByClassName("intro");
+      document.getElementById("demo").innerHTML =
+        "Paragraf kedua (index 1) dengan class='intro' adalah : " +
+        element[1].innerHTML;
+    </script> -->
+
+    <!-- Manipulasi DOM dengan getElementByTagName -->
+
+    <!-- <p>Menemukan HTML element dengan tag name</p>
+    <p>Diatas adalah contoh penggunaan dari tag name</p>
+
+    <p id="demo"></p>
+
+    <script>
+      const element = document.getElementsByTagName("p");
+      document.getElementById("demo").innerHTML =
+        "Paragraf pertama dari index (0) adalah : " + element[0].innerHTML;
+    </script> -->
+
+    <!-- Manipulasi DOM dengan CSS -->
+
+    <h1>Changing the HTML Style</h1>
+
+    <p id="hello1">Content Hello World 1</p>
+    <p id="hello2">Content Hello World 2</p>
+
+    <button id="button" onclick="changeColor()" onmousedown="onMouseHandler()">
+      Click Me to Change Color!
+    </button>
+
+    <br /><br />
+
+    <button onCLick="onTextHandler()">Click Me to Show Alert!</button>
+
+    <script>
+      function changeColor() {
+        document.getElementById("hello1").style.color = "red";
+        document.getElementById("hello1").style.fontFamily = "Arial";
+        document.getElementById("hello2").style.color = "blue";
+        document.getElementById("hello2").style.fontFamily = "Arial";
+        alert("Color has changed!");
+      }
+      function onMouseHandler() {
+        document.getElementById("button").style.backgroundColor = "red";
+      }
+      function onTextHandler() {
+        alert("Hey, I'm clicked!");
+      }
+    </script>
   </body>
 </html>
